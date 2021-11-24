@@ -1,0 +1,109 @@
+
+.menu_header {
+  display: flex; /*タグの中のアイテムを横並びにする*/
+  /* position: fixed;
+  top:auto; */
+  /* background-color: blue;
+  color: snow; */
+  height: 80px;
+  background-color: cornflowerblue;
+  margin-bottom: 10px;
+  color:white;
+}
+
+.menu_header a {
+  font-size: 20px;
+}
+.error {
+  width:40%;
+  background-color:floralwhite;
+}
+
+.error_message {
+  color:red;
+}
+
+.success_message {
+  color:blue;
+}
+
+.menu_header_list {
+  display: flex; /*タグの中のアイテムを横並びにする*/
+  justify-content:right;/*いい感じに間を空けて並べる*/
+  align-items: center;/*上下を中央ぞろえにする*/
+  list-style: none;/*リストの黒点をなくす*/
+  
+}
+.menu_header_list li {
+  /* background-color:deepskyblue; */
+  color:white;
+  margin: 5px;
+}
+
+.menu_header_list li a{
+  color:white;
+}
+
+.reserch_form {
+  width: 600px;
+  margin:auto;
+  text-align: center;
+}
+
+.jumbotron {
+  background-color:aliceblue;
+  margin: 10px;
+  /* padding-bottom: 10px; */
+}
+
+.button {
+  margin:10px;
+  padding:5px;
+  background-color:honeydew;
+}
+
+.delete_button {
+  margin:10px;
+  padding:5px;
+  background-color:honeydew;
+  color:red;
+  font-weight: bold;
+}
+
+.button:hover {
+  opacity:0.5;
+}
+
+.arrow_box{
+    position:relative;
+    width:300px;
+    height:140px;
+    background:#5ae628;
+    padding:20px;
+    text-align:left;
+    color:#333333;
+    font-size:14px;
+    font-weight:bold;
+    border-radius:15px;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    margin: 5px;
+    margin-left: 50px;
+  }
+  .arrow_box:after{
+    border: solid transparent;
+    content:'';
+    height:0;
+    width:0;
+    pointer-events:none;
+    position:absolute;
+    border-color: rgba(90, 230, 40, 0);
+    border-top-width:10px;
+    border-bottom-width:10px;
+    border-left-width:30px;
+    border-right-width:30px;
+    margin-top: -10px;
+    border-right-color:#5ae628;
+    right:100%;
+    top:50%;
+  }
